@@ -281,7 +281,7 @@ function App() {
             console.log(programmingSkills);
             console.log(`includes (Java): ${programmingSkills.includes("Java")}`);
             console.log(`includes (AI): ${programmingSkills.includes("AI")}`);            
-          }}>fill()</button>
+          }}>includes()</button>
 
           {/* INDEXOF METHOD */}
           <button type="button" onClick={ () => {
@@ -364,8 +364,6 @@ function App() {
             console.log(numberArray);
             
           }}>sortNumber()</button>
-
-
       </div>
       <hr/>
 
